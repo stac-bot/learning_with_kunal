@@ -5,4 +5,6 @@ git commit -m "comment"
 cat "file_name" (displays what is in the file)
 git restore --staged "file_name"
 
-git log /to see commits history
+git log                /to see commits history
+
+rm -rf "name of the file to be deleted"   /delete file
