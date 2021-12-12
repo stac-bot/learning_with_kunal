@@ -4,3 +4,5 @@ git status
 git commit -m "comment"
 cat "file_name" (displays what is in the file)
 git restore --staged "file_name"
+
+git log /to see commits history
