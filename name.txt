@@ -1,10 +1,44 @@
 git init
-git add ./"name fo the file"
+
+touch "file_to_be_created"  //create new file
+
+git add . (or)"name fo the file" // to add all changes made or  specific file
+
 git status 
+
 git commit -m "comment"
+
 cat "file_name" (displays what is in the file)
+
 git restore --staged "file_name"
 
-git log                /to see commits history
+git log //to see commits history
 
-rm -rf "name of the file to be deleted"   /delete file
+rm -rf "name of the file to be deleted"   //delete file
+
+git reset "commit_id" // restore the deleted files
+
+vi "file_name" //vi terminal mode to edit the file
+
+esc:wq //to save teh changes and back to cmd mode
+
+git stach //keep it backstage
+git stach clear // clean the backstage
+
+git remote add origin <http that copied from github repo> // 
+
+git remote -v // urls attach to repo ;show origin push (and) fetch
+
+git push origin master // push the commit or pull requests to master branch
+
+**********working on someone else projects*******************
+
+->//fork to your own repo on the github//
+// from where you fork it that branch is called upstream //>> git remote add upstream url
+
+>> git remote -v  // urls attach to repo 
+
+->cloing someone else code/ repo (fork ---creating the copy in your own account)
+>> git clone url(that start from your account_name(origin) from your)
+
+>> cat filename  //to see what the file contains
