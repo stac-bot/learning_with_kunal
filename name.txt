@@ -1,0 +1,6 @@
+git init
+git add ./"name fo the file"
+git status 
+git commit -m "comment"
+cat "file_name" (displays what is in the file)
+git restore --staged "file_name"
