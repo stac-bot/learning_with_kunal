@@ -31,6 +31,7 @@ git remote -v // urls attach to repo ;show origin push (and) fetch
 
 git push origin master // push the commit or pull requests to master branch
 
+git checkout "branch_name" // checkout means head comes on the branch_name
 **********working on someone else projects*******************
 
 ->//fork to your own repo on the github//
@@ -42,3 +43,74 @@ git push origin master // push the commit or pull requests to master branch
 >> git clone url(that start from your account_name(origin) from your)
 
 >> cat filename  //to see what the file contains
+
+// "one branch, one pull request"//
+//never commit on the main branch //
+
+>>git branch kunal 
+>>git checkout kunal
+once add and commit done
+>>push upstream kunal(url) //##this is wromg## you cannot push to the upstream url because you're not directly authorized to change someones else code unless they wanted
+>>git push origin master // 
+
+//removing a commit from the pull request by force pushing to.
+>>git push origin master(kunal) -f
+
+//making fork project eveen/balance with the main project//
+1. button (fetch upstream)
+
+2.manually
+>>git checkout main
+>>git fetch --all --prune  //(prune --> deleted will also be fetched)
+>>git reset --hard upstream/main
+>>git push origin
+or 
+>> git pull upstream main
+
+// squashing commits  (pick and squash )
+
+
+// merge conflict
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
